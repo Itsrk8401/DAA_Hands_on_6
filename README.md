@@ -10,7 +10,7 @@ To derive the average runtime complexity of the non-random pivot version of quic
 In the average case analysis, we consider the expected behavior over all possible inputs. We assume that each element is equally likely to be chosen as the pivot.
 
 # Partition Operation:
-Let \(T(n)\) be the time complexity to sort an array of size (n).
+Let (T(n) be the time complexity to sort an array of size (n).
 
 1. Partitioning: Partitioning takes O(n) time because we compare each element to the pivot once.
 
@@ -25,7 +25,7 @@ Let (T(n)) be the average time complexity of quicksort with non-random pivot.
 # 1. Average Time for Partitioning:
    - The partitioning step takes O(n) time.
 
-   [Partitioning} = O(n)]
+   [Partitioning] = O(n)]
 
 # 2. Average Time for Recursion:
    - After partitioning, we have two sub-arrays. The sizes of these sub-arrays are random variables, and we take the average over all possible scenarios.
